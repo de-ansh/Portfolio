@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const GridBackground = () => {
   return (
@@ -9,8 +9,7 @@ const GridBackground = () => {
         Backgrounds
       </p>
     </div>
-    
-  )
-}
+  );
+};
 
-export default GridBackground
+export default GridBackground;
