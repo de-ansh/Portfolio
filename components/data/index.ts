@@ -193,16 +193,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    src: "https://github.com/de-ansh/"
+    src: "https://github.com/de-ansh/",
   },
   {
     id: 2,
     img: "/twit.svg",
-    src: "https://x.com/de__ansh"
+    src: "https://x.com/de__ansh",
   },
   {
     id: 3,
     img: "/link.svg",
-    src: "https://www.linkedin.com/in/pythonbot"
+    src: "https://www.linkedin.com/in/pythonbot",
   },
 ];
