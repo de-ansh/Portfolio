@@ -1,7 +1,7 @@
-import React from "react";
 
 import { workExperience } from "@/components/data";
 import { Button } from "@/components/ui/MovingBorders";
+import Image from "next/image";
 
 const Experience = () => {
   return (

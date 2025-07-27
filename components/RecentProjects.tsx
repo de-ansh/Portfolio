@@ -3,6 +3,8 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/components/data";
 import { PinContainer } from "@/components/ui/Pin";
+import Link from "next/link";
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
@@ -61,12 +63,14 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                <Link href={item.link} target="_blank">
+                <div className="flex justify-center items-center" >
+                  <p className="flex lg:text-base md:text-xs text-sm text-purple">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
+                </Link>
               </div>
             </PinContainer>
           </div>
