@@ -75,7 +75,7 @@ export const projects = [
     title: "Web Search Agent",
     des: "WebSearchAgent is an AI-powered web search and research system that intelligently processes user queries, validates them, and performs comprehensive web searches with smart content summarization.",
     img: "/p5.svg",
-    iconLists: ["/re.svg", "/next.svg", "/ts.svg","/python.svg", "/fast.svg", "/gemini.svg", "/tail.svg"],
+    iconLists: ["/re.svg", "/next.svg", "/ts.svg","/Python.svg", "/fast.svg", "/gemini.svg", "/tail.svg"],
     link: "https://github.com/de-ansh/web_search_agent",
   },
   {
